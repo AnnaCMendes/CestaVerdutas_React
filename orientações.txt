@@ -1,0 +1,37 @@
+Então, podemos verificar a versão rodando o comando:
+
+node --version
+
+Caso você já tenha instalado e quer mudar a versão, 
+basta atualizar com o próprio npm, que é o gerenciador de pacotes e
+mbutido no Node.js:
+
+npm install -g node@18.13.0
+
+E, falando em npm, vamos utilizar a versão 7.19.1. 
+Você pode atualizar ou verificar qual a versão atual na sua 
+máquina rodando os seguintes comandos:
+
+npm install -g npm
+npm -v
+
+Agora que já temos o node instalado na versão correta, 
+fica bem simples instalar o Expo! Basta rodar o comando abaixo, 
+especificando a versão que estamos utilizando no curso:
+
+npm install --global expo-cli
+npm install -g npm
+
+npx create-expo-app "nomeDoProjeto"
+- cd orgs-cesta
+- npm start # you can open iOS, Android, or web from here, or run them directly with the commands below.
+- npm run android
+- npm run ios # requires an iOS device or macOS for access to an iOS simulator
+- npm run web
+
+react-native-web@~0.18.10, react-dom@18.2.0, @expo/webpack-config@^18.0.1
+
+Start da aplicação: npx expo start
+
+npx expo install expo-font @expo-google-fonts/inter - Instalando fontes (inter pode ser montserrat\
+npm install --save @expo-google-fonts/montserrat)
